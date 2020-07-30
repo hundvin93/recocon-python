@@ -1,0 +1,22 @@
+LOCUS       Exported                 135 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             1..135
+                     /label="psbN CDS (photosystem II reaction center protein
+                     N)"
+                     /label="psbN CDS (photosystem II reaction center protei"
+                     /note="color: #b4abac; direction: RIGHT"
+     gene            1..135
+                     /label="psbN gene"
+                     /note="color: #f58a5e; direction: RIGHT"
+ORIGIN
+        1 atggaaagtc cagctttttt ctttaccttt tttttatggt ttcttctgtt aagtgtaact
+       61 ggctattcag tttatgttag ttttggtcca ccttcaaaaa aattacgtga tccttttgaa
+      121 gaacacgaag attaa
+//

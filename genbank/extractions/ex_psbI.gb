@@ -1,0 +1,19 @@
+LOCUS       Exported                 114 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            1..114
+                     /label="psbI gene"
+                     /note="color: #d6b295; direction: RIGHT"
+     CDS             1..114
+                     /label="psbI CDS (photosystem II protein I)"
+                     /note="color: #f58a5e; direction: RIGHT"
+ORIGIN
+        1 atgttaacat taaaaatttt tgtttataca gtagttacgt tctttgtttg tttatttatt
+       61 tttggtttct tatctaatga ccctgctcgt aacccaggta aaaatttaga ctaa
+//

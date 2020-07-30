@@ -1,0 +1,19 @@
+LOCUS       Exported                  96 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     CDS             complement(1..96)
+                     /label="psbT CDS (photosystem II protein T)"
+                     /note="color: #f8d3a9; direction: LEFT"
+     gene            complement(1..96)
+                     /label="psbT gene"
+                     /note="color: #ffef86; direction: LEFT"
+ORIGIN
+        1 ttatttaatc atacgtggag gatctctgaa gaaaattgag aagaaaataa tacctaaagt
+       61 cccaactaat aagaaagtat atactaaagc ttccat
+//

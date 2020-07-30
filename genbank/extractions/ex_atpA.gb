@@ -1,0 +1,43 @@
+LOCUS       Exported                1527 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            1..1527
+                     /label="atpA gene"
+                     /note="color: #d59687; direction: RIGHT"
+     CDS             1..1527
+                     /label="atpA CDS (ATP synthase CF1 alpha subunit)"
+                     /note="color: #ffef86; direction: RIGHT"
+ORIGIN
+        1 atggcaatgc gtactccaga agaacttagt aatcttatta aagatttaat tgaacaatac
+       61 actccagaag tgaaaatggt agatttcggt atcgttttcc aagtaggtga cggtattgct
+      121 cgtatttatg gtttagaaaa agcaatgtca ggtgaattac ttgaattcga agatggtact
+      181 ttaggtattg cacttaactt agaagcaaac aacgtaggtg cggtattatt aggtgatggt
+      241 ttaaaaatta ctgaaggtag ccgtgttcgt tgtactggta aaatcgctga aattcctgta
+      301 ggtgaagcat acttaggtcg tgtagttgac ggtttagctc gtccagttga tggtaaaggt
+      361 gctgttcaaa caaaagatag ccgtgctatt gaatcaccag ctcctggtat cgttgcacgt
+      421 cgttctgttt atgaaccatt agctactggt ttagttgctg tagatgctat gattccagtt
+      481 ggtcgtggtc aacgtgagct aattattggt gaccgtcaaa caggtaaaac agcaatcgct
+      541 gtagatacta tccttaacca aaaaggtaaa ggtgttattt gtgtttacgt tgctattggt
+      601 caaaaagctt catctgtagc tcaagtatta aatacattaa aagaacgtgg tgctttagat
+      661 tatacaatta tcgtaatggc taacgctaac gaaccagcta cattacaata tttagcacca
+      721 tatacaggtg ctacgttagc tgagtacttc atgtacacag gtcgtccaac tttaacaatt
+      781 tacgatgact tatctaaaca agcacaagct taccgtgaaa tgtctctatt acttcgtcgt
+      841 ccaccaggtc gtgaagctta cccaggtgac gtattctatc tacactctcg tttattagaa
+      901 cgtgctgcta aattaaataa tgcattaggt gaaggtagta tgacagctct tccaattgtt
+      961 gaaacacaag aaggtgacgt atctgcttat atcccaacaa acgtaatttc tattacagat
+     1021 ggtcagattt tcttagctgc tggtttattt aactcaggtt tacgcccagc gattaacgta
+     1081 ggtatttcag tatcacgtgt aggttctgca gctcaaccaa aagcaatgaa acaagttgcg
+     1141 ggtaaactta agttagaact agcacaattc gctgaactag aagctttctc acaattcgct
+     1201 tcagaccttg accaagctac acaaaaccaa ttagctcgtg gtgctcgttt acgtgaaatt
+     1261 ttaaaacaac cacaatcttc tccactttca gttgaagaac aagtagcttc tatttatgct
+     1321 ggtactaatg gttatttaga caaacttgaa gtatcacaag tacgtgcata cttatctggt
+     1381 ttacgtagct acttagctaa tagctacccg aaatatggtg aaattttacg ttcaacttta
+     1441 acattcactc ctgaagctga aggtttagtt aaacaagcta ttaatgaata cttagaagaa
+     1501 tttaaatctc aagctaaagc tgcttaa
+//

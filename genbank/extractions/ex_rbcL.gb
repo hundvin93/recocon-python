@@ -1,0 +1,43 @@
+LOCUS       Exported                1428 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            complement(1..1428)
+                     /label="rbcL gene"
+                     /note="color: #85dae9; direction: LEFT"
+     CDS             complement(1..1428)
+                     /label="rbcL CDS (ribulose-1,5-bisphosphate
+                     carboxylase/oxygenase large subunit)"
+                     /label="rbcL CDS (ribulose-1,5-bisphosphate carboxylase"
+                     /note="color: #9eafd2; direction: LEFT"
+ORIGIN
+        1 ttaaagtttg tcaatagtat caaattcgaa tttaatttct ttccaaactt cacatgcagc
+       61 agcaagttct ggagaccatt tacaagctga acgaattacg tcgccacctt cacgagcaag
+      121 gtcacgacct tcgttacgag cttgagtaca agcttcaaga gctacacggt tagctgcagc
+      181 acctggagcg ttaccccaag ggtgacctag agtaccacca ccgaactgaa gacatgcgtc
+      241 atcaccgaag atttcaacta aagctggcat gtgccatacg tgaataccac ctgaagcaac
+      301 tggcataaca cctggcattg aacaccagtc ttgagtgaag taaataccac ggctacggtc
+      361 tttttcaacg tagtcatcac gcattaagtc tacgaaacct agagtaactt cacgttcacc
+      421 ttctagttta cctacaacag taccagagtg aaggtggtca ccaccagaca tacgaagagc
+      481 tttagcaaga acacggaagt gaataccgtg gttacgttga cggtcaataa ccgcgtgcat
+      541 agcacggtgg atgtgtagaa gaagaccgtt gtcacgacag tagatagcta atgaagtgtt
+      601 agctgtgaaa ccacctgtta agtagtcgtg cataataata ggtacaccta attctttagc
+      661 acatactgca cgtttcatca tttcttcaca agtaccagca gtagcgttta agtagtgacc
+      721 tttaacttca cctgtttctg cttgagcttt gtaaatagct tcagcaacga aaaggaaacg
+      781 gtcacgccaa cgcatgaatg gttgtgagtt tacgttttcg tcgtctttag taaagtcaag
+      841 accaccacgt aaacattcat aaactgcacg accgtagttt ttagctgaaa gacctaattt
+      901 aggtttgatt gtacaaccta aaagaccacg accatatttg tttaatttgt cacgttctac
+      961 ctgaataccg tgtggaggac ctacgaatgt tttaacgtaa gcaggtggaa tacgaaggtc
+     1021 ttcaagacgt agagcacgta aagctttgaa accgaatacg ttacctacaa tagaagtgaa
+     1081 catgttagtt actgaacctt cttcgaataa gtcgattggg taagctacgt aagcaatgta
+     1141 ttggttgtct tcacccggaa ctggttcgat atcgtaacaa cgacctttgt aacggtcaag
+     1201 acttgttaaa ccgtcagtcc atactgtagt ccatgtacct gttgaagatt cagcagctac
+     1261 agcagcacca cattcttcag gtggaacacc tggttgtgga gtcatacgga atgcagctaa
+     1321 aatatcagta tctcttacta cgtaatcagg tgtgtagtat gttaaacggt agtcttttac
+     1381 accggctttg aatccagcac ctgctttagt ttctgtttgt ggaaccat
+//

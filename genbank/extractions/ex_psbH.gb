@@ -1,0 +1,22 @@
+LOCUS       Exported                 267 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            complement(1..267)
+                     /label="psbH gene"
+                     /note="color: #c7b0e3; direction: LEFT"
+     CDS             complement(1..267)
+                     /label="psbH CDS (photosystem II protein H)"
+                     /note="color: #faac61; direction: LEFT"
+ORIGIN
+        1 ttaagaaact ttagctaaag tttcccaact catagaaacg tcatctaaaa ttaaagaact
+       61 gttgtaaatt tctaaaatga ttaataagaa tgctgcaaat aaaaggataa atacagccat
+      121 taaaacagtt gtaccccagc ctggtaatac tttacctgct tctgagttaa gtggacgtaa
+      181 taaagtacct aatggtgtaa ctaaaccagg ttcttggaag tctgaattta cttttgatgg
+      241 tttagcttta gaagttcctg ttgccat
+//
