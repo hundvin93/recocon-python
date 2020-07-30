@@ -1,3 +1,8 @@
+#################################
+#    Kristoffer Holm Hundvin    #
+#    Master thesis              #
+#################################
+
 from itertools import permutations
 import Bio
 from Bio import SeqIO

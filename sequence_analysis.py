@@ -1,3 +1,8 @@
+#################################
+#    Kristoffer Holm Hundvin    #
+#    Master thesis              #
+#################################
+
 from CDS import CDS
 from Bio import SeqIO
 from Bio.SeqUtils import GC

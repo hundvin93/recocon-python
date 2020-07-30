@@ -1,3 +1,8 @@
+#################################
+#    Kristoffer Holm Hundvin    #
+#    Master thesis              #
+#################################
+
 from CDS import CDS
 import os.path
 import pandas as pd

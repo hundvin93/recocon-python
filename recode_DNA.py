@@ -1,3 +1,8 @@
+#################################
+#    Kristoffer Holm Hundvin    #
+#    Master thesis              #
+#################################
+
 from Bio.Alphabet import IUPAC
 from Bio import Seq, SeqIO, SeqFeature
 from CDS import CDS

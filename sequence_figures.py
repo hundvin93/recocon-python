@@ -1,3 +1,8 @@
+#################################
+#    Kristoffer Holm Hundvin    #
+#    Master thesis              #
+#################################
+
 from dna_features_viewer import GraphicFeature, GraphicRecord
 import pandas as pd
 
