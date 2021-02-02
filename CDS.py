@@ -322,20 +322,40 @@ class CDS:
         df.to_excel('excel/codon_frequencies.xlsx')
         return codons
 
-    def create_codon_count(self):
-        genes = {}
-        for gene in cds_info:
+    def create_codon_count(self, from_fasta=False):
+        if(from_fasta == True):
+            fasta = self.fasta_file
+            fasta_info = {}
+            for i in fasta:
+                line = str(i.seq)
+                n = 3
+                codons = [line[i:i+n] for i in range(0, len(line), n)]
+                fasta_info[i.name] = codons
+            genes = {}
+            for gene in fasta_info.keys():
+                codons = {}
+                for cod in fasta_info[gene]:
+                    if (cod not in codons.keys()):
+                        codons[cod] = 1
+                    else:
+                        codons[cod] += 1
+                genes[gene] = codons
+        else:
 
-            codons = {}
-            for j in gene["codons"]:
-                cod = "".join(j[0])
-                if (cod not in codons.keys()):
-                    codons[cod] = 1
-                else:
-                    codons[cod] +=1
-            genes[gene["label"]] = codons
 
-        # print(genes)
+            genes = {}
+            for gene in cds_info:
+
+                codons = {}
+                for j in gene["codons"]:
+                    cod = "".join(j[0])
+                    if (cod not in codons.keys()):
+                        codons[cod] = 1
+                    else:
+                        codons[cod] +=1
+                genes[gene["label"]] = codons
+
+        print(genes)
 
         gene_names = list(genes.keys())
         bases = "TCAG"
@@ -363,7 +383,7 @@ class CDS:
 if __name__ == '__main__':
 
     #cds = CDS("genbank\eColiK-12MG1655.gb")#, "fasta\genes.fasta")
-    cds = CDS("genbank\cp.gb", "fasta\genes.fasta")
+    cds = CDS("genbank\cp.gb", "fasta\genesrankingorderedFASTA.fasta")
     #print(cds.get_codon_pair_freq("CTT","CTT", cds.CDS_info[0]))
     #gb = SeqIO.read("test-sequence.gb", "genbank")
     #feature = gb.features[1]
@@ -395,7 +415,7 @@ if __name__ == '__main__':
             print(cds.get_codon_freq("GGT", i))
 
     # print(cds.get_codon_frequency())
-    cds.create_codon_count()
+    cds.create_codon_count(from_fasta=True)
 
 
     # a check to make the figures again if i want
