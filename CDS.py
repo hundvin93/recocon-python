@@ -2,12 +2,13 @@
 #    Kristoffer Holm Hundvin    #
 #    Master thesis              #
 #################################
-
+import csv
 from itertools import permutations
 import Bio
 from Bio import SeqIO
 from Bio.Seq import Seq
 import pandas as pd
+import numpy as np
 
 class CDS:
     def __init__(self, gb, fasta = None):
@@ -321,7 +322,42 @@ class CDS:
         df.to_excel('excel/codon_frequencies.xlsx')
         return codons
 
+    def create_codon_count(self):
+        genes = {}
+        for gene in cds_info:
 
+            codons = {}
+            for j in gene["codons"]:
+                cod = "".join(j[0])
+                if (cod not in codons.keys()):
+                    codons[cod] = 1
+                else:
+                    codons[cod] +=1
+            genes[gene["label"]] = codons
+
+        # print(genes)
+
+        gene_names = list(genes.keys())
+        bases = "TCAG"
+        all_codons = [a + b + c for a in bases for b in bases for c in bases]
+        # print(gene_names)
+
+
+        df = pd.DataFrame(np.zeros((len(all_codons),len(gene_names))))
+        df.columns = gene_names
+        df.index = all_codons
+
+        for i in genes.keys():
+            for j in genes[i].keys():
+                # print(genes[i][j])
+                df[i][j] = genes[i][j]
+
+        df.to_excel('excel/codon_count.xlsx')
+
+
+
+        # for i in cds_info:
+        #     print(i["label"])
 
 # This is for testing
 if __name__ == '__main__':
@@ -337,7 +373,7 @@ if __name__ == '__main__':
     cds_info = cds.get_CDS()
     shortest_seq = None
     longest_seq = None
-    print(len(cds_info))
+    # print(len(cds_info))
     for i in cds_info:
         seq = ""
         for j in i["sequence"]:
@@ -358,12 +394,12 @@ if __name__ == '__main__':
         if("rbcL" in i["label"]):
             print(cds.get_codon_freq("GGT", i))
 
-    print(cds.get_codon_frequency())
-
+    # print(cds.get_codon_frequency())
+    cds.create_codon_count()
 
 
     # a check to make the figures again if i want
-    if True:
+    if False:
         cds.make_genbank_extract("psbH", "psbB")
 
         cds.make_genbank_extract("psbB")
